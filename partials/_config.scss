@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,300;0,400;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+$primary-color: rgb(48, 48, 148);
+$primary-color-varient: rgb(100, 200, 200);
+$secondary-color: rgb(200, 100, 200);
+$white-color: rgb(250, 250, 250);
+$light-color: rgba($white-color, 0.8);
+$black-color: rgb(30, 30, 30);
+$dark-color: rgba($black-color, 0.8);
+$success-color: rgba(100, 200, 100, 0.8);
+$container-lg: 80%;
+$container-md: 90%;
+
+// body {
+//   background: $secondary-color;
+// }
