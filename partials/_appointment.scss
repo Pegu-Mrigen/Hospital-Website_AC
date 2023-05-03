@@ -76,6 +76,20 @@
           text-align: center;
         }
       }
+
+      form {
+        .form__group {
+          input[type="date"] {
+            width: 100%;
+          }
+          input[type="number"] {
+            width: 100%;
+          }
+          select {
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }
