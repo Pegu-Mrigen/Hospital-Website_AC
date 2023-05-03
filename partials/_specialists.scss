@@ -33,6 +33,9 @@
         position: relative;
         border-radius: 1rem;
         overflow: hidden;
+        img {
+          height: 20rem;
+        }
 
         &::before {
           content: "";
@@ -66,8 +69,8 @@
         visibility: hidden;
         transition: all 400ms ease;
         a {
-          background: $white-color;
-          color: $primary-color;
+          background: $primary-color-varient;
+          color: $white-color;
           padding: 0.4rem;
           display: flex;
           font-size: 0.8rem;
@@ -81,7 +84,7 @@
         }
       }
       .specialists__whatsapp {
-        background: $success-color;
+        background: rgb(23, 222, 23);
         color: $white-color;
         position: absolute;
         left: 50%;
@@ -102,6 +105,14 @@
   #specialists {
     .container {
       grid-template-columns: 1fr 1fr;
+      article{
+        .specialists__image {
+        
+          height: 14rem;
+          margin-top: -1rem;
+        
+      }
+      }
     }
   }
 }

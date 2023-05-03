@@ -1,18 +1,19 @@
 #services {
   margin-top: -5rem;
-  
-  
+
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     article {
+      
       @include gradientBackground;
       padding: 1.5rem;
       border-radius: 1rem;
       display: flex;
       gap: 1.5rem;
-      height: fit-content;
+      //height: fit-content;
+      height: 100%;
       transition: all 300ms ease;
       &:hover {
         margin-top: -0.5rem;

@@ -12,6 +12,7 @@
       border-radius: 1rem;
       cursor: default;
       font-size: 0.9rem;
+      height: auto;
 
       p {
         margin-bottom: 1.5rem;
@@ -37,11 +38,18 @@
 }
 
 // small devices
+@media screen and (max-width: "1024px") {
+  #testimonials {
+    padding-top: 8rem;
+  }
+}
+// small devices
 @media screen and (max-width: "600px") {
   .swiper {
     .swiper-wrapper {
       .swiper-slide {
         padding: 1.5rem;
+        height: 60%;
       }
     }
   }
